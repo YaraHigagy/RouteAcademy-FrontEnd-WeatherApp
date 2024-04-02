@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="shortcut icon" href="Assets/img/logo@2x.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="Assets/css/styles.css">
+</head>
+<body>
+    <!-- ========== Header Section ========== -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-main py-5">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <div class="d-flex justify-content-center align-content-center">
+                        <img class="col-6 img-fluid logo me-10px" src="Assets/img/logo@2x.png" alt="blue-outline-cloud-logo">
+                        <div class="col-6 d-flex flex-column">
+                            <h1 class="fs-6 mb-5px fw-bold">Weather</h1>
+                            <small class="fs-10px fw-light text-sm-nowrap">tagline goes here</small>
+                        </div>
+                    </div>
+                </a>
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="rounded-pill border-accent p-20px"><i class="fa fa-bars text-white fa-sm"></i></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav text-center rounded-4 mt-30px mt-lg-0">
+                        <li class="nav-item border-secondary border-opacity-25 border-li ms-lg-10px">
+                            <a class="nav-link rounded-pill border-accent p-20px py-lg-5px" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item border-secondary border-opacity-25 border-li ms-lg-10px">
+                            <a class="nav-link rounded-pill border-accent p-20px py-lg-5px" href="#">News</a>
+                        </li>
+                        <li class="nav-item border-secondary border-opacity-25 border-li ms-lg-10px">
+                            <a class="nav-link rounded-pill border-accent p-20px py-lg-5px" href="#">Live cameras</a>
+                        </li>
+                        <li class="nav-item border-secondary border-opacity-25 border-li ms-lg-10px">
+                            <a class="nav-link rounded-pill border-accent p-20px py-lg-5px" href="#">Photos</a>
+                        </li>
+                        <li class="nav-item ms-lg-10px">
+                            <a class="nav-link rounded-pill border-accent p-20px py-lg-5px active" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- ========== Contact Section ========== -->
+        <section>
+            <!-- ===== Contact Header ===== -->
+            <header class="contact-head">
+                <div class="container">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb fs-13px fw-light bg-sub py-20px px-30px rounded-pill mb-0">
+                            <li class="breadcrumb-item"><a class="text-sub" href="index.html">Home</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Contact</li>
+                        </ol>
+                    </nav>
+                </div>
+            </header>
+            <!-- ===== Contact Body ===== -->
+            <div class="contact-body container py-70px">
+                <div class="row">
+                    <!-- ===== Contact Details ===== -->
+                    <div class="col-lg-5 px-15px">
+                        <div class="bg-sub rounded-3">
+                            <div>
+                                <iframe class="d-block w-100 rounded-top-3" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d21056742.211671695!2d-97.15369!3d49.891235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s14735+32A+AVE+Surrey+V4P+1Z8+bc!5e0!3m2!1sen!2sca!4v1424618801986" height="220" frameborder="0" style="border:0"></iframe>
+                            </div>
+                            <ul class="d-flex flex-wrap list-unstyled text-sub fs-14px fw-light p-20px mb-0">
+                                <li class="col-12 d-flex">
+                                    <div class="me-30px"><img class="img-fluid h-19px" src="Assets/img/icon-marker@2x.png" alt="icon-marker"></div>
+                                    <p class="mb-14px">
+                                        Company Name INC.<br />
+                                        2803 Avenue Street, Los Angeles
+                                    </p>
+                                </li>
+                                <li class="d-flex flex-wrap me-md-20px">
+                                    <div class="me-10px"><img class="img-fluid h-19px" src="Assets/img/icon-phone@2x.png" alt="icon-phone"></div>
+                                    <a class="text-sub text-decoration-none me-20px mb-14px" href="tel:+1 800 314 235">+1 800 314 235</a>
+                                    <div class="me-10px"><img class="img-fluid h-25" src="Assets/img/icon-envelope@2x.png" alt="icon-envelope"></div>
+                                    <a class="text-sub text-decoration-none me-20px mb-14px" href="mailto:contact@companyname.com">contact@companyname.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- ===== Contact Form ===== -->
+                    <div class="col-lg-6 px-15px ms-auto">
+                        <h2 class="fs-36px mb-20px">Contact us</h2>
+                        <p class="fs-14px mb-14px fw-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consectetur inventore ducimus, facilis, numquam id soluta omnis eius recusandae nesciunt vero repellat harum cum. Nisi facilis odit hic, ipsum sed!</p>
+                        <form action="">
+                            <div class="row">
+                                <div class="col-lg-6 px-5px">
+                                    <input type="text" class="input-costume form-control text-white rounded-pill mb-10px" id="name" placeholder="Your Name...">
+                                </div>
+                                <div class="col-lg-6 px-5px">
+                                    <input type="email" class="input-costume form-control text-white rounded-pill mb-10px" id="email" placeholder="Email Address...">
+                                </div>
+                                <div class="col-lg-6 px-5px">
+                                    <input type="text" class="input-costume form-control text-white rounded-pill mb-10px" id="companyName" placeholder="Company Name...">
+                                </div>
+                                <div class="col-lg-6 px-5px">
+                                    <input type="url" class="input-costume form-control text-white rounded-pill mb-10px" id="website" placeholder="Website...">
+                                </div>
+                                <div class="px-5px">
+                                    <textarea name="message" class="input-costume form-control text-white rounded-5 mb-10px" id="message" rows="6" placeholder="Message..."></textarea>
+                                </div>
+                                <input type="submit" role="button" class="btn btn-accent text-white fs-14px bg-accent rounded-pill px-40px w-fit ms-auto me-1" id="submit" value="Submit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- ========== Footer Section ========== -->
+    <footer class="bg-sub py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 px-15px">
+                    <div class="costume-input mb-30px">
+                        <input type="text" class="input-costume form-control text-white rounded-pill" placeholder="Enter your email to subscribe..." aria-label="Enter your email to subscribe..." aria-describedby="subscribe">
+                        <input type="button" role="button" class="btn btn-accent text-white bg-accent rounded-pill" id="subscribe" value="Subscribe">
+                    </div>
+                </div>
+                <div class="col-md-3 px-15px ms-md-auto">
+                    <div class="d-flex flex-wrap">
+                        <a class="i-circle text-decoration-none ms-1" href=""><i class="fa-brands fa-facebook-f fa-lg"></i></a>
+                        <a class="i-circle text-decoration-none ms-1" href=""><i class="fa-brands fa-twitter fa-lg"></i></a>
+                        <a class="i-circle text-decoration-none ms-1" href=""><i class="fa-brands fa-google-plus-g fa-lg"></i></a>
+                        <a class="i-circle text-decoration-none ms-1" href=""><i class="fa-brands fa-pinterest fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+            <p class="fs-14px mb-14px">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+            <p class="fs-14px">Powered by <a class="ms-sm-3" href="https://www.weatherapi.com/" title="Free Weather API">WeatherAPI.com</a></p>
+        </div>
+    </footer>
+
+    <script type = "text/javascript" src="Assets/js/bootstrap.bundle.min.js"></script>
+    <script type = "text/javascript" src="Assets/js/main.js"></script>
+</body>
+</html>
